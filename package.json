@@ -12,12 +12,19 @@
     "author": "EnvyTheme.com",
     "license": "ISC",
     "dependencies": {
+        "@sendgrid/mail": "^7.4.5",
+        "formik": "^2.2.9",
+        "fs": "0.0.1-security",
         "next": "^11.0.1",
+        "path": "^0.12.7",
         "react": "^17.0.2",
         "react-anchor-link-smooth-scroll": "^1.0.12",
         "react-dom": "^17.0.2",
         "react-modal-video": "^1.2.8",
         "react-owl-carousel3": "^2.2.5",
-        "sass": "^1.36.0"
+        "react-text-mask": "^5.4.3",
+        "sass": "^1.36.0",
+        "sweetalert2": "^11.1.2",
+        "yup": "^0.32.9"
     }
 }

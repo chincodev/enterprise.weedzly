@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
 import Link from 'next/link';
-import AnchorLink from 'react-anchor-link-smooth-scroll';
-import SidebarDemosModal from './SidebarDemosModal';
 
 class NavbarSaasLandingTwo extends Component {
     state = {
@@ -152,7 +150,7 @@ class NavbarSaasLandingTwo extends Component {
                             </ul>
 
                             <div className="navbar-btn">
-                                <Link href="#">
+                                <Link href="/register">
                                     <a>Register</a>
                                 </Link>
                             </div>
@@ -160,16 +158,6 @@ class NavbarSaasLandingTwo extends Component {
                     </div>
                 </nav>  
 
-                {/* Sidebar Demos Modal */}
-                <div className="demo-side-icon">
-                    <button type="button" className="modal-btn" 
-                       onClick={this.toggleModal}
-                    >
-                        <span>Demos</span>
-                    </button>
-                </div>
-
-                <SidebarDemosModal onClick={this.toggleModal} active={this.state.sidebarModal ? 'show' : ''} />
             </>
         );
     }

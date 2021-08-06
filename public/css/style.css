@@ -84,6 +84,7 @@ body {
   margin: 0;
 }
 
+
 /* Defalut CSS Start */
 .text-left {
   text-align: start !important;
@@ -92,6 +93,7 @@ body {
 img {
   max-width: 100%;
 }
+
 
 a {
   -webkit-transition: .5s;
@@ -212,7 +214,7 @@ ul {
 }
 
 .navbar .navbar-nav .nav-item .nav-link {
-  color: #ffffff;
+  color: #6c3478;
   font-family: "Open Sans", sans-serif;
   margin: 0 15px;
   padding: 5px 0;
@@ -222,7 +224,7 @@ ul {
 .navbar .navbar-nav .nav-item .nav-link::before {
   position: absolute;
   content: '';
-  background-color: #ffffff;
+  background-color: #6c3478;
   width: 0;
   height: 1px;
   bottom: 0;
@@ -243,18 +245,18 @@ ul {
 
 .navbar .navbar-btn a {
   font-size: 16px;
-  color: #ffffff;
+  color: #6c3478;
   font-family: "Open Sans", sans-serif;
   font-weight: 600;
-  border: 1px solid #ffffff;
+  border: 1px solid #6c3478;
   padding: 10px 30px;
   border-radius: 80px;
   margin-left: 30px;
 }
 
 .navbar .navbar-btn a:hover {
-  background-color: #ffffff;
-  color: #079ce8;
+  background-color: #6c3478;
+  color: white;
 }
 
 .is-sticky {
@@ -266,7 +268,7 @@ ul {
   z-index: 999;
   -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.36);
           box-shadow: 0 0 10px rgba(0, 0, 0, 0.36);
-  background-color: #069ee8;
+  background-color: white;
   -webkit-animation: .5s ease-in-out fadeInDown;
           animation: .5s ease-in-out fadeInDown;
 }
@@ -2375,12 +2377,40 @@ ul {
   border-radius: 30px;
 }
 
+.features-style-two .feature-text .btn.feature-btn {
+  font-size: 16px;
+  font-weight: 600;
+  color: #ffffff;
+  background: #7c58fc;
+  line-height: 1;
+  padding: 20px 40px;
+  border-radius: 30px;
+}
+
 .features-style-two .feature-text .feature-btn a:hover {
   background: #ffffff;
   color: #7c58fc;
   -webkit-box-shadow: 0 6px 13px rgba(0, 0, 0, 0.25) !important;
           box-shadow: 0 6px 13px rgba(0, 0, 0, 0.25) !important;
 }
+
+.feature-btn-a {
+  font-size: 16px;
+  font-weight: 600;
+  color: #ffffff;
+  background: #7c58fc;
+  line-height: 1;
+  padding: 20px 40px;
+  border-radius: 30px;
+}
+
+.feature-btn-a:hover {
+  background: #ffffff;
+  color: #7c58fc;
+  -webkit-box-shadow: 0 6px 13px rgba(0, 0, 0, 0.25) !important;
+          box-shadow: 0 6px 13px rgba(0, 0, 0, 0.25) !important;
+}
+
 
 .features-style-two .featues-shape img {
   position: absolute;

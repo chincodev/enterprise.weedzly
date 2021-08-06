@@ -9,62 +9,54 @@ const FooterSaasLandingTwo = () => {
                 <div className="row">
                     <div className="col-lg-3 col-sm-6">
                         <div className="footer-widget">
-                            <h3>Plexi</h3>
+                            <h3>Weedzly</h3>
                           
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
 
                             <div className="footer-social">
-                                <a href="https://www.facebook.com/" target="_blank"><i className="flaticon-facebook"></i></a>
+                                {/* <a href="https://www.facebook.com/" target="_blank"><i className="flaticon-facebook"></i></a>
                                 <a href="https://twitter.com/" target="_blank"><i className="flaticon-twitter"></i></a>
                                 <a href="https://www.linkedin.com/" target="_blank"><i className="flaticon-linkedin"></i></a>
-                                <a href="https://www.instagram.com/" target="_blank"><i className="flaticon-instagram"></i></a>
+                                <a href="https://www.instagram.com/" target="_blank"><i className="flaticon-instagram"></i></a> */}
                             </div>
                         </div>
                     </div>
 
                     <div className="col-lg-3 col-sm-6">
                         <div className="footer-widget pl-90">
-                            <h3>Company</h3>
+                            <h3>Enterprise</h3>
                             <ul>
                                 <li>
-                                    <Link href="#">
+                                    <Link href="/dispensaries">
                                         <a>
                                             <i className="flaticon-right-arrow"></i>
-                                            Advertise
+                                            Dispensaries
                                         </a>
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link href="#">
+                                    <Link href="/deliveries">
                                         <a>
                                             <i className="flaticon-right-arrow"></i>
-                                            Support
+                                            Deliveries
                                         </a>
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link href="#">
+                                    <Link href="/brands">
                                         <a>
                                             <i className="flaticon-right-arrow"></i>
-                                            Marketing
+                                            Brands
                                         </a>
                                     </Link>
                                 </li>
                                 <li>           
-                                    <Link href="#">                
+                                    <Link href="/register">                
                                         <a>
                                             <i className="flaticon-right-arrow"></i>
-                                            Bonus
+                                            Register
                                         </a> 
                                     </Link>
-                                </li>
-                                <li>
-                                    <Link href="#">
-                                        <a>
-                                            <i className="flaticon-right-arrow"></i>
-                                            Contact
-                                        </a> 
-                                    </Link>  
                                 </li>
                             </ul>
                         </div>
@@ -75,33 +67,33 @@ const FooterSaasLandingTwo = () => {
                             <h3>Quick Links</h3>
                             <ul>
                                 <li>
-                                    <a href="#home">
+                                    <a href="https://weedzly.com/products" target='_blank'>
                                         <i className="flaticon-right-arrow"></i>
-                                        Home
+                                        Products
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="#services">
+                                    <a href="https://weedzly.com/map" target='_blank'>
                                         <i className="flaticon-right-arrow"></i>
-                                        Services
+                                        Map
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="#apps">
+                                    <a href="https://weedzly.com/deals" target='_blank'>
                                         <i className="flaticon-right-arrow"></i>
-                                        Apps
+                                        Deals
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="#pricing">
+                                    <a href="https://weedzly.com/strains" target='_blank'>
                                         <i className="flaticon-right-arrow"></i>
-                                        Pricing
+                                        Strains
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="#testimonials">
+                                    <a href="https://weedzly.com/library" target='_blank'>
                                         <i className="flaticon-right-arrow"></i>
-                                        Testimonials
+                                        Library
                                     </a>   
                                 </li>
                             </ul>
@@ -110,30 +102,12 @@ const FooterSaasLandingTwo = () => {
 
                     <div className="col-lg-3 col-sm-6">
                         <div className="footer-widget pl-90">
-                            <h3>Find Us</h3>
+                            <h3>Management</h3>
                             <ul>
                                 <li>     
-                                    <a href="tel:+880123456789">
+                                    <a href="https://app.weedzly.com">
                                         <i className="flaticon-right-arrow"></i>
-                                        +0880123456789
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="mailto:plexi@mail.com">
-                                        <i className="flaticon-right-arrow"></i>
-                                        plexi@mail.com
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="mailto:info@plexi.com">
-                                        <i className="flaticon-right-arrow"></i>
-                                        info@plexi.com
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        <i className="flaticon-right-arrow"></i>
-                                        28/A Street, USA
+                                        Business Login
                                     </a>
                                 </li>
                             </ul>
@@ -146,14 +120,14 @@ const FooterSaasLandingTwo = () => {
                 <div className="container">
                     <div className="row align-items-center">
                         <div className="col-lg-5 col-md-4 lh-1">
-                            <img src="/images/visa.png" alt="visa card" />
+                            {/* <img src="/images/visa.png" alt="visa card" />
                             <img src="/images/american-express.png" alt="american-express" />
                             <img src="/images/discover.png" alt="discover" />
-                            <img src="/images/master-card.png" alt="master card" />
+                            <img src="/images/master-card.png" alt="master card" /> */}
                         </div>
 
                         <div className="col-lg-7 col-md-8 lh-1">
-                            <p>Copyright &copy; {currentYear} Plexi. All Rights Reserved by <a href="https://hibootstrap.com/" target="_blank">HiBootstrap</a></p>
+                            <p>Copyright &copy; {currentYear} Weedzly. All Rights Reserved</p>
                         </div>
                     </div>
                 </div>
