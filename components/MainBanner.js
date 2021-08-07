@@ -14,12 +14,7 @@ const MainBanner = () => {
     return (
         <div id="home" className="main-banner main-banner-two banner-bg-three">
             {/* If you want to change the video need to update videoID */}
-            <ModalVideo 
-                channel='youtube' 
-                isOpen={!isOpen} 
-                videoId='bk7McNUjWgw' 
-                onClose={() => setIsOpen(!isOpen)} 
-            />
+
             <div className="d-table">
                 <div className="d-table-cell">
                     <div className="container">

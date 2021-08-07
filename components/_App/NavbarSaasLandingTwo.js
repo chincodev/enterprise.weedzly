@@ -4,7 +4,8 @@ import Link from 'next/link';
 class NavbarSaasLandingTwo extends Component {
     state = {
         collapsed: true,
-        sidebarModal: false
+        sidebarModal: false,
+        logo: 'logo-w'
     };
 
     toggleNavbar = () => {
@@ -26,8 +27,10 @@ class NavbarSaasLandingTwo extends Component {
         document.addEventListener("scroll", () => {
             if (window.scrollY > 170) {
                 elementId.classList.add("is-sticky");
+                this.setState({logo:'logo'})
             } else {
                 elementId.classList.remove("is-sticky");
+                this.setState({logo:'logo-w'})
             }
         });
         window.scrollTo(0, 0);
@@ -66,7 +69,7 @@ class NavbarSaasLandingTwo extends Component {
                     <div className="container">
                         <Link href="/saas-landing-2">
                             <a className="navbar-brand">
-                                <img src="/images/logo.png" alt="logo" />
+                                <img src={`/images/${this.state.logo}.png`} alt="logo" />
                             </a>
                         </Link>
 
@@ -84,7 +87,7 @@ class NavbarSaasLandingTwo extends Component {
                             <span className="icon-bar middle-bar"></span>
                             <span className="icon-bar bottom-bar"></span>
                         </button>
-
+                        {console.log(this.state)}
                         <div className={classOne} id="navbarSupportedContent">
                             <ul className="navbar-nav ms-auto">
                                 <li className="nav-item">
@@ -151,7 +154,7 @@ class NavbarSaasLandingTwo extends Component {
 
                             <div className="navbar-btn">
                                 <Link href="/register">
-                                    <a>Register</a>
+                                    <a>Sign Up</a>
                                 </Link>
                             </div>
                         </div>

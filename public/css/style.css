@@ -214,17 +214,18 @@ ul {
 }
 
 .navbar .navbar-nav .nav-item .nav-link {
-  color: #6c3478;
+  color: white;
   font-family: "Open Sans", sans-serif;
   margin: 0 15px;
   padding: 5px 0;
   position: relative;
+  font-weight: 600;
 }
 
 .navbar .navbar-nav .nav-item .nav-link::before {
   position: absolute;
   content: '';
-  background-color: #6c3478;
+  background-color: white;
   width: 0;
   height: 1px;
   bottom: 0;
@@ -233,6 +234,14 @@ ul {
   margin: auto;
   -webkit-transition: .5s;
   transition: .5s;
+}
+
+.navbar.is-sticky .navbar-nav .nav-item .nav-link {
+  color: #6c3478;
+}
+
+.navbar.is-sticky .navbar-nav .nav-item .nav-link::before {
+  background-color: #6c3478;
 }
 
 .navbar .navbar-nav .nav-item .nav-link:hover::before {
@@ -245,13 +254,19 @@ ul {
 
 .navbar .navbar-btn a {
   font-size: 16px;
-  color: #6c3478;
+  color: white;
   font-family: "Open Sans", sans-serif;
   font-weight: 600;
-  border: 1px solid #6c3478;
+  border: 1px solid white;
   padding: 10px 30px;
   border-radius: 80px;
   margin-left: 30px;
+  font-weight: 600;
+}
+
+.navbar.is-sticky .navbar-btn a {
+  color: #6c3478;
+  border: 1px solid #6c3478;
 }
 
 .navbar .navbar-btn a:hover {
@@ -364,7 +379,7 @@ ul {
 }
 
 .main-banner .banner-text .banner-btn a {
-  color: #03abeb;
+  color: #6c3478;
   background: #ffffff;
   font-weight: 600;
   padding: 10px 30px;
@@ -375,7 +390,7 @@ ul {
 }
 
 .main-banner .banner-text .banner-btn a:hover {
-  background: #03abeb;
+  background: #6c3478;
   color: #ffffff;
 }
 
@@ -4712,7 +4727,7 @@ ul {
 /* Back To Top  CSS End */
 /* Preloader CSS Start */
 .loader-content {
-  background: #06a1e9;
+  background: #6c3478;
   height: 100%;
   width: 100%;
   position: fixed;

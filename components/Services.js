@@ -6,7 +6,7 @@ const Services = () => {
             <div className="container">
                 <div className="section-title">
                     <h2>Why Weedzly</h2>
-                    <p>This feature is essential for any mobile app, so make sure you have it! These types of notifications can directly alert your user.</p>
+                    {/* <p>This feature is essential for any mobile app, so make sure you have it! These types of notifications can directly alert your user.</p> */}
                 </div>
 
                 <div className="row">

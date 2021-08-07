@@ -54,7 +54,7 @@ const FooterSaasLandingTwo = () => {
                                     <Link href="/register">                
                                         <a>
                                             <i className="flaticon-right-arrow"></i>
-                                            Register
+                                            Sign Up
                                         </a> 
                                     </Link>
                                 </li>
