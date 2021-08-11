@@ -80,7 +80,7 @@ class ContactUs extends Component {
                                             type="text" 
                                             name="name"
                                             className="form-control" 
-                                            id="Name" placeholder="Name" 
+                                            id="Name" placeholder="First & last name" 
                                             onChange={this.changHandler}
                                             value={this.state.name}
                                         />
@@ -91,7 +91,7 @@ class ContactUs extends Component {
                                         <input 
                                             name="email"
                                             type="email" 
-                                            className="form-control" 
+                                            className="form-control"    
                                             id="Email"
                                             placeholder="Email" 
                                             onChange={this.changHandler}
@@ -107,7 +107,7 @@ class ContactUs extends Component {
                                     name="subject"
                                     className="form-control" 
                                     id="Subject" 
-                                    placeholder="Subject" 
+                                    placeholder="Company name" 
                                     onChange={this.changHandler}
                                     value={this.state.subject}
                                 />
@@ -148,7 +148,7 @@ class ContactUs extends Component {
                                       ) : (
                                             <>
                                               <span className="text-white pr-3"><i className="fas fa-paper-plane" /></span>
-                                              Send Message
+                                              Submit
                                             </>
                                           )
                                     }

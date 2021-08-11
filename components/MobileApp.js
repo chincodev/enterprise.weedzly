@@ -9,9 +9,9 @@ const MobileApp = () => {
                     <div className="col-lg-7">
                         <div className="keep-updating-text">
                             <div className="section-title text-left">
-                                <h2>Deliveries Made Simple</h2>
+                                <h2>Offer Pickup, Delivery or Both</h2>
                             </div>
-                            <p>In today's digital age, customers want to press the "easy" button that lets them easily find a cannabis business that fits their needs. When listed,potential customers will be able to find your business and place an order with the click of a few buttons. We want to help grow your revenue and take the guesswork out of serving your customers, so your can focus on growing your business.</p>
+                            <p>Meet your customers where they are or have them come to you. With options for pickup, delivery, as well as curbside pickup, the choice is yours to make. Turn on pre-ordering so customers can order for the next day. Simplify the checkout process and save time with online ordering.</p>
 
                             <div className="keep-btn">
                                 <a href="https://play.google.com/store/apps" className="active" target="_blank">

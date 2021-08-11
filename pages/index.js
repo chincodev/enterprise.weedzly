@@ -31,7 +31,7 @@ export default function Home() {
 
             <ContactUs content={dispensariesText.ContactUs} /> 
 
-            <Testimonials content={dispensariesText.Testimonials} />
+            {/* <Testimonials content={dispensariesText.Testimonials} /> */}
 
             <Newsletter content={dispensariesText.Newsletter} />
             

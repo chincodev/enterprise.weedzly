@@ -10,48 +10,48 @@ const Services = () => {
                 </div>
 
                 <div className="row">
-                    <div className="col-lg-4 col-sm-6">
-                        <div className="service-item">
+                    <div className="col-lg-4 col-sm-6" style={{paddingBottom:'2rem'}}>
+                        <div className="service-item" style={{height:'100%'}}>
                             <img src="/images/saas-landing/saas-service1.png" alt="icon" width='40px' height='40px'/>
                             <h3>Online Ordering</h3>
                             <p>Enable online ordering for pickup or delivery</p>
                         </div>
                     </div>
 
-                    <div className="col-lg-4 col-sm-6">
-                        <div className="service-item">
+                    <div className="col-lg-4 col-sm-6" style={{paddingBottom:'2rem'}}>
+                        <div className="service-item" style={{height:'100%'}}>
                             <img src="/images/saas-landing/saas-service2.png" alt="icon" width='40px' height='40px'/>
                             <h3>Deals and Discounts</h3>
                             <p>Create custom deals and discounts</p>
                         </div>
                     </div>
 
-                    <div className="col-lg-4 col-sm-6">
-                        <div className="service-item">
+                    <div className="col-lg-4 col-sm-6" style={{paddingBottom:'2rem'}}>
+                        <div className="service-item" style={{height:'100%'}}>
                             <img src="/images/saas-landing/saas-service3.png" alt="icon" width='40px' height='40px'/>
                             <h3>Loyalty Program</h3>
                             <p>Offer customers rewards and build a consistent customer base</p>
                         </div>
                     </div>
 
-                    <div className="col-lg-4 col-sm-6">
-                        <div className="service-item">
+                    <div className="col-lg-4 col-sm-6" style={{paddingBottom:'2rem'}}>
+                        <div className="service-item" style={{height:'100%'}}>
                             <img src="/images/saas-landing/saas-service4.png" alt="icon" width='40px' height='40px'/>
                             <h3>Custom Weedzly Profile</h3>
                             <p>Take control of your profile and boost your local seo</p>
                         </div>
                     </div>
 
-                    <div className="col-lg-4 col-sm-6">
-                        <div className="service-item">
+                    <div className="col-lg-4 col-sm-6" style={{paddingBottom:'2rem'}}>
+                        <div className="service-item" style={{height:'100%'}}>
                             <img src="/images/saas-landing/saas-service5.png" alt="icon" width='40px' height='40px'/>
                             <h3>Interactive Reviews</h3>
                             <p>Easily read and reply to customer reviews about your business.</p>
                         </div>
                     </div>
 
-                    <div className="col-lg-4 col-sm-6">
-                        <div className="service-item">
+                    <div className="col-lg-4 col-sm-6" style={{paddingBottom:'2rem'}}>
+                        <div className="service-item" style={{height:'100%'}}>
                             <img src="/images/saas-landing/saas-service6.png" alt="icon" width='40px' height='40px'/>
                             <h3>Get Local Eyes On You</h3>
                             <p>Grab a top spot in the search bar as a featured dispensary/delivery.</p>

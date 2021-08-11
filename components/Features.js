@@ -26,7 +26,7 @@ const Features = () => {
                                 </li>
                                 <li>
                                     <i className="flaticon-check"></i>
-                                    Ability to create custom products and add them to your menu
+                                   Create custom products and add them to your menu
                                 </li>
                                 <li>
                                     <i className="flaticon-check"></i>
