@@ -309,6 +309,8 @@ const SaasLanding2 = () => {
                                                 <option value="Medical Nonstorefront">Medical Nonstorefront</option>
                                                 <option value="Medical Retail">Medical Retail</option>
                                                 <option value="Microbusiness">Microbusiness</option>
+                                                <option value="Adult Use Storefront">Adult Use Storefront</option>
+                                                <option value="Adult Use Non-Storefront">Adult Use Non-Storefront</option>
                                                 <option value="Testing Lab">Testing Lab</option>
                                                 <option value="Event">Event</option>
                                                 <option value="Distributor">Distributor</option>
