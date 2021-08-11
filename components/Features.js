@@ -15,24 +15,24 @@ const Features = () => {
                     <div className="col-lg-6">
                         <div className="feature-text">
                             <div className="section-title text-left">
-                                <h2>Live Menu in Just Minutes!</h2>
-                                <p>Ready to kickstart your Cannabis business and start raking in results ASAP? Our system gets you up and running faster than any other platform on the market. Simply sign up, customize your profile and hit the ground running with instant access to our library to more than 200,000 pre-built products. No hassle, no waiting period, just immediate access to the tools you need.</p>
+                                <h2>Live Menu in Minutes!</h2>
+                                <p>With our system, you'll be up and running within minutes. Simply sign up, customize your profile, and hit the ground running with instant accesss to our library with more than 200,000 pre-built products. </p>
                             </div>
 
                             <ul>
                                 <li>
                                     <i className="flaticon-check"></i>
-                                    Clean User Interface
+                                    Add products with the click of a button
                                 </li>
                                 <li>
                                     <i className="flaticon-check"></i>
-                                   Easy To Use
+                                    Ability to create custom products and add them to your menu
                                 </li>
                                 <li>
                                     <i className="flaticon-check"></i>
-                                    Best Performance
+                                    Enable after-hour ordering, allowing customers to pre-order for when you reopen.
                                 </li>
-                                <li>
+                                {/* <li>
                                     <i className="flaticon-check"></i>
                                     24/7 Support
                                 </li>
@@ -43,7 +43,7 @@ const Features = () => {
                                 <li>
                                     <i className="flaticon-check"></i>
                                     Strong Secured Data Storage
-                                </li>
+                                </li> */}
                             </ul>
 
                             <div className="feature-btn">

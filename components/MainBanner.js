@@ -20,7 +20,7 @@ const MainBanner = () => {
                     <div className="container">
                         <div className="banner-text">
                             <h1>An All-in-One Solutions for Cannabis Deliveries</h1>
-                            <p>Weedzly is the single solution answer designed to address the daily struggles of your cannabis delivery business in one innovative platform. Now you can take more online orders, market your brand more easily with rapid profile customization, entice your customers with exclusive offers, and engage your growing audience with unique content, all from our sleek and seamless backend dashboard.</p>
+                            <p>Weedzly is the solution made to help grow your delivery service to the next level. Streamline your operations with our sleek dashboard, where you can manage everything in one place. Take online orders, set custom delivery locations, and entice your customers with deals to keep them coming back.</p>
 
                             <div className="banner-btn">
                                 <Link href="#">

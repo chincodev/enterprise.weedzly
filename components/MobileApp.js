@@ -9,15 +9,15 @@ const MobileApp = () => {
                     <div className="col-lg-7">
                         <div className="keep-updating-text">
                             <div className="section-title text-left">
-                                <h2>Deliveries Made Easy</h2>
+                                <h2>Deliveries Made Simple</h2>
                             </div>
-                            <p>In the age of convenience, your potential customers want to press the “easy” button that lets them find a cannabis provider to fit into their lifestyle. With a single click, your shoppers can have their goodies delivered, right from the palm of their hand. As a result, your revenue can grow exponentially. Bottom line? We take the stress and guesswork out of serving your customers, so you can focus on growing your brand.</p>
+                            <p>In today's digital age, customers want to press the "easy" button that lets them easily find a cannabis business that fits their needs. When listed,potential customers will be able to find your business and place an order with the click of a few buttons. We want to help grow your revenue and take the guesswork out of serving your customers, so your can focus on growing your business.</p>
 
                             <div className="keep-btn">
                                 <a href="https://play.google.com/store/apps" className="active" target="_blank">
                                     <i className="flaticon-play-store"></i>
-                                    <p>Get It on</p>
-                                    <h5>Get Started</h5>
+                                    {/* <p>Contact Us</p> */}
+                                    <h5>Get Started Today</h5>
                                 </a>
                                 {/* <a href="https://www.apple.com/app-store/" target="_blank">
                                     <i className="flaticon-app-store"></i>

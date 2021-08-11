@@ -64,8 +64,8 @@ class ContactUs extends Component {
                 <div className="container">
                     <div className="section-title">
                         {/* <span>Contact Us</span> */}
-                        <h2>Send Us Your Message</h2>
-                        <p>We have the perfect plans for your given budgets. That’s why we brought you three kinds of price planning.</p>
+                        <h2>Get Started Today</h2>
+                        <p>Fill out the contact form below and one of our representatives will be in touch within 24 hours.</p>
                     </div>  
 
                     <div className="contact-form-area">
