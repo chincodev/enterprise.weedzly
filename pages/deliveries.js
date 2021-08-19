@@ -17,7 +17,7 @@ const SaasLanding2 = () => {
 
             <MainBanner selected='deliveries' />
 
-            <Services />
+            <Services selected='deliveries' />
 
             <Features />
 

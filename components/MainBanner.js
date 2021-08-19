@@ -29,12 +29,14 @@ const MainBanner = (props) => {
                             </h1>
                             <p>
                                 {
-                                    props.selected === 'dispensaries' || props.selected === 'deliveries' 
+                                    props.selected === 'dispensaries'
+                                        ? "Weedzly is the solution made to help your dispensary grow. Streamline your operations with our sleek dashboard, where you can manage your entire storefront in one place. Take online orders for pickup or delivery, offer custom deals and discounts, and create a loyalty program to keep your customers coming back."
+                                        :  props.selected === 'deliveries' 
                                         ? "Weedzly is the solution made to help take your dispensary to the next level. Streamline your operations with our sleek dashboard, where you can your whole storefront in one place. Take online orders for pickup or delivery, offer custom deals and discounts, and create a loyalty program to keep your customers coming back."
                                         :  props.selected === 'brands' 
                                         ? "Increase sales and brand awareness by showcasing your brand directly to cannabis consumers. Show off your product catalog and interact with customers through reviews. Weedzly is your all in one solution made to help grow your brand."
                                         : ''
-                                    }
+                                }
                                 
                             </p>
 

@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Services = () => {
+const Services = (props) => {
     return (
         <div id="services" className="service-style-two pt-100">
             <div className="container">
@@ -10,55 +10,94 @@ const Services = () => {
                 </div>
 
                 <div className="row">
-                    <div className="col-lg-4 col-sm-6" style={{paddingBottom:'2rem'}}>
-                        <div className="service-item" style={{height:'100%'}}>
-                            <img src="/images/saas-landing/saas-service1.png" alt="icon" width='40px' height='40px'/>
-                            <h3>Online Ordering</h3>
-                            <p>Enable online ordering for pickup or delivery</p>
-                        </div>
-                    </div>
 
-                    <div className="col-lg-4 col-sm-6" style={{paddingBottom:'2rem'}}>
-                        <div className="service-item" style={{height:'100%'}}>
-                            <img src="/images/saas-landing/saas-service2.png" alt="icon" width='40px' height='40px'/>
-                            <h3>Deals and Discounts</h3>
-                            <p>Create custom deals and discounts</p>
-                        </div>
-                    </div>
+                    {
+                        props.selected === 'dispensaries' || props.selected === 'deliveries' && (
+                            <>
 
-                    <div className="col-lg-4 col-sm-6" style={{paddingBottom:'2rem'}}>
-                        <div className="service-item" style={{height:'100%'}}>
-                            <img src="/images/saas-landing/saas-service3.png" alt="icon" width='40px' height='40px'/>
-                            <h3>Loyalty Program</h3>
-                            <p>Offer customers rewards and build a consistent customer base</p>
-                        </div>
-                    </div>
+                                <div className="col-lg-4 col-sm-6" style={{paddingBottom:'2rem'}}>
+                                    <div className="service-item" style={{height:'100%'}}>
+                                        <img src="/images/saas-landing/saas-service1.png" alt="icon" width='40px' height='40px'/>
+                                        <h3>Online Ordering</h3>
+                                        <p>Enable online ordering for pickup or delivery</p>
+                                    </div>
+                                </div>
 
-                    <div className="col-lg-4 col-sm-6" style={{paddingBottom:'2rem'}}>
-                        <div className="service-item" style={{height:'100%'}}>
-                            <img src="/images/saas-landing/saas-service4.png" alt="icon" width='40px' height='40px'/>
-                            <h3>Custom Weedzly Profile</h3>
-                            <p>﻿Take control of your profile and grow your engagement
+                                <div className="col-lg-4 col-sm-6" style={{paddingBottom:'2rem'}}>
+                                    <div className="service-item" style={{height:'100%'}}>
+                                        <img src="/images/saas-landing/saas-service2.png" alt="icon" width='40px' height='40px'/>
+                                        <h3>Deals and Discounts</h3>
+                                        <p>Create custom deals and discounts</p>
+                                    </div>
+                                </div>
 
-</p>
-                        </div>
-                    </div>
+                                <div className="col-lg-4 col-sm-6" style={{paddingBottom:'2rem'}}>
+                                    <div className="service-item" style={{height:'100%'}}>
+                                        <img src="/images/saas-landing/saas-service3.png" alt="icon" width='40px' height='40px'/>
+                                        <h3>Loyalty Program</h3>
+                                        <p>Offer customers rewards and build a consistent customer base</p>
+                                    </div>
+                                </div>
 
-                    <div className="col-lg-4 col-sm-6" style={{paddingBottom:'2rem'}}>
-                        <div className="service-item" style={{height:'100%'}}>
-                            <img src="/images/saas-landing/saas-service5.png" alt="icon" width='40px' height='40px'/>
-                            <h3>Interactive Reviews</h3>
-                            <p>Easily read and reply to customer reviews about your business.</p>
-                        </div>
-                    </div>
+                                <div className="col-lg-4 col-sm-6" style={{paddingBottom:'2rem'}}>
+                                    <div className="service-item" style={{height:'100%'}}>
+                                        <img src="/images/saas-landing/saas-service4.png" alt="icon" width='40px' height='40px'/>
+                                        <h3>Custom Weedzly Profile</h3>
+                                        <p>Take control of your profile and grow your engagement</p>
+                                    </div>
+                                </div>
 
-                    <div className="col-lg-4 col-sm-6" style={{paddingBottom:'2rem'}}>
-                        <div className="service-item" style={{height:'100%'}}>
-                            <img src="/images/saas-landing/saas-service6.png" alt="icon" width='40px' height='40px'/>
-                            <h3>Get Local Eyes On You</h3>
-                            <p>Grab a top spot in the search bar as a featured dispensary/delivery.</p>
-                        </div>
-                    </div>
+                                <div className="col-lg-4 col-sm-6" style={{paddingBottom:'2rem'}}>
+                                    <div className="service-item" style={{height:'100%'}}>
+                                        <img src="/images/saas-landing/saas-service5.png" alt="icon" width='40px' height='40px'/>
+                                        <h3>Interactive Reviews</h3>
+                                        <p>Easily read and reply to customer reviews about your business.</p>
+                                    </div>
+                                </div>
+
+                                <div className="col-lg-4 col-sm-6" style={{paddingBottom:'2rem'}}>
+                                    <div className="service-item" style={{height:'100%'}}>
+                                        <img src="/images/saas-landing/saas-service6.png" alt="icon" width='40px' height='40px'/>
+                                        <h3>Get Local Eyes On You</h3>
+                                        <p>Grab a top spot in the search bar as a featured dispensary/delivery.</p>
+                                    </div>
+                                </div>
+
+                            </>
+                        )
+                    }
+
+                    {
+                        props.selected === 'brands' && (
+                            <>
+
+                                <div className="col-lg-4 col-sm-6" style={{paddingBottom:'2rem'}}>
+                                    <div className="service-item" style={{height:'100%'}}>
+                                        <img src="/images/saas-landing/saas-service5.png" alt="icon" width='40px' height='40px'/>
+                                        <h3>Interactive Reviews</h3>
+                                        <p>Easily read and reply to customer reviews about your business.</p>
+                                    </div>
+                                </div>
+
+                                <div className="col-lg-4 col-sm-6" style={{paddingBottom:'2rem'}}>
+                                    <div className="service-item" style={{height:'100%'}}>
+                                        <img src="/images/saas-landing/saas-service4.png" alt="icon" width='40px' height='40px'/>
+                                        <h3>Custom Weedzly Profile</h3>
+                                        <p>Take control of your profile and grow your engagement</p>
+                                    </div>
+                                </div>
+
+                                <div className="col-lg-4 col-sm-6" style={{paddingBottom:'2rem'}}>
+                                    <div className="service-item" style={{height:'100%'}}>
+                                        <img src="/images/saas-landing/saas-service4.png" alt="icon" width='40px' height='40px'/>
+                                        <h3>Manage Product Catalog</h3>
+                                        <p>Update your catalog and let customers know about new product arrivals</p>
+                                    </div>
+                                </div>
+
+                            </>
+                        )
+                    }
                 </div>
             </div>
 

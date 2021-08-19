@@ -13,11 +13,11 @@ import FooterSaasLandingTwo from '../components/_App/FooterSaasLandingTwo';
 const SaasLanding2 = () => {
     return (
         <>
-            <NavbarSaasLandingTwo selected='deliveries' />
+            <NavbarSaasLandingTwo selected='brands' />
 
             <MainBanner selected='brands' />
 
-            <Services />
+            <Services selected='brands'  />
 
             <Features />
 

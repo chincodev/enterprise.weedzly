@@ -19,7 +19,7 @@ export default function Home() {
 
             <MainBanner content={dispensariesText.MainBanner} selected='dispensaries' />
 
-            <Services content={dispensariesText.Services} />
+            <Services content={dispensariesText.Services} selected='dispensaries' />
 
             <Features content={dispensariesText.Features} />
 
