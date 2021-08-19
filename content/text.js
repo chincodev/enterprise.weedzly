@@ -25,7 +25,7 @@ export const dispensariesText = {
             },
             {
                 "title": "Custom Weedzly Profile",
-                "description": "Take control of your profile and boost your local seo",
+                "description": "Take control of your profile and grow your engagement",
                 "image": "saas-service4.png"
             },
             {
@@ -99,7 +99,7 @@ export const deliveriesText = {
             },
             {
                 "title": "Custom Weedzly Profile",
-                "description": "Take control of your profile and boost your local seo",
+                "description": "Take control of your profile and grow your engagement",
                 "image": "saas-service4.png"
             },
             {
@@ -173,7 +173,7 @@ export const brandsText = {
             },
             {
                 "title": "Custom Weedzly Profile",
-                "description": "Take control of your profile and boost your local seo",
+                "description": "Take control of your profile and grow your engagement",
                 "image": "saas-service4.png"
             },
             {

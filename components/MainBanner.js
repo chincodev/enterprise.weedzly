@@ -5,7 +5,7 @@ const ModalVideo = dynamic(() => import('react-modal-video'), {
     ssr: false
 });
 
-const MainBanner = () => {
+const MainBanner = (props) => {
     // Popup Video
 	const [isOpen, setIsOpen] = React.useState(true);
     const openModal = () => {
@@ -19,11 +19,24 @@ const MainBanner = () => {
                 <div className="d-table-cell">
                     <div className="container">
                         <div className="banner-text">
-                            <h1>An All-in-One Solutions for Cannabis Deliveries</h1>
-                            <p>Weedzly is the solution made to help take your dispensary to the next level. 
-Streamline your operations with our sleek dashboard, where you can your whole storefront in one place.
-Take online orders for pickup or delivery, offer custom deals and discounts, 
-and create a loyalty program to keep your customers coming back.</p>
+                            <h1>An All-in-One Solutions for Cannabis 
+                                {
+                                    props.selected === 'dispensaries' 
+                                        ? ' Dispensaries' : props.selected === 'deliveries' 
+                                        ? ' Deliveries' : props.selected === 'brands' 
+                                        ? ' Brands' : ''
+                                }
+                            </h1>
+                            <p>
+                                {
+                                    props.selected === 'dispensaries' || props.selected === 'deliveries' 
+                                        ? "Weedzly is the solution made to help take your dispensary to the next level. Streamline your operations with our sleek dashboard, where you can your whole storefront in one place. Take online orders for pickup or delivery, offer custom deals and discounts, and create a loyalty program to keep your customers coming back."
+                                        :  props.selected === 'brands' 
+                                        ? "Increase sales and brand awareness by showcasing your brand directly to cannabis consumers. Show off your product catalog and interact with customers through reviews. Weedzly is your all in one solution made to help grow your brand."
+                                        : ''
+                                    }
+                                
+                            </p>
 
                             <div className="banner-btn">
                                 <Link href="#">

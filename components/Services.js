@@ -38,7 +38,9 @@ const Services = () => {
                         <div className="service-item" style={{height:'100%'}}>
                             <img src="/images/saas-landing/saas-service4.png" alt="icon" width='40px' height='40px'/>
                             <h3>Custom Weedzly Profile</h3>
-                            <p>Take control of your profile and boost your local seo</p>
+                            <p>﻿Take control of your profile and grow your engagement
+
+</p>
                         </div>
                     </div>
 

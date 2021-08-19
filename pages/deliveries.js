@@ -15,13 +15,13 @@ const SaasLanding2 = () => {
         <>
             <NavbarSaasLandingTwo selected='deliveries' />
 
-            <MainBanner />
+            <MainBanner selected='deliveries' />
 
             <Services />
 
             <Features />
 
-            <MobileApp />
+            <MobileApp selected='deliveries' />
 
             {/* <Pricing /> */}
 

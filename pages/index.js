@@ -17,13 +17,13 @@ export default function Home() {
         <>
             <NavbarSaasLandingTwo selected='dispensaries' />
 
-            <MainBanner content={dispensariesText.MainBanner} />
+            <MainBanner content={dispensariesText.MainBanner} selected='dispensaries' />
 
             <Services content={dispensariesText.Services} />
 
             <Features content={dispensariesText.Features} />
 
-            <MobileApp content={dispensariesText.MobileApp} />
+            <MobileApp content={dispensariesText.MobileApp} selected='dispensaries' />
 
             {/* <Pricing /> */}
 
