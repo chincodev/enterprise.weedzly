@@ -27,7 +27,7 @@ export default function Home() {
 
             <Services content={dispensariesText.Services} selected='dispensaries' />
 
-            <Features content={dispensariesText.Features} />
+            <Features content={dispensariesText.Features} selected='dispensaries' />
 
             <MobileApp content={dispensariesText.MobileApp} selected='dispensaries' />
 

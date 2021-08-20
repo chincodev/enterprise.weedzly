@@ -13,7 +13,7 @@ const MobileApp = (props) => {
                                     {
                                         props.selected === 'dispensaries' ? 'Offer Pickup, Delivery or Both'
                                             : props.selected === 'deliveries' ? 'Deliveries Made Simple' 
-                                            : props.selected === 'brands' ? 'title for brands' 
+                                            : props.selected === 'brands' ? 'Update Your Product Catalog' 
                                             : ''
                                     }
                                 </h2>
@@ -22,7 +22,7 @@ const MobileApp = (props) => {
                                 {
                                     props.selected === 'dispensaries' ? 'Meet your customers where they are or have them come to you. With options for pickup, delivery, as well as curbside pickup, the choice is yours to make. Turn on pre-ordering so customers can order for the next day. Simplify the checkout process and save time with online ordering.'
                                         : props.selected === 'deliveries' ? `In today's digital age, customers want to press the "easy" button that lets them easily find a cannabis business that fits their needs. When listed, potential customers will be able to find your business and place an order with the click of a few buttons. We want to help grow your revenue and make serving your customers more simple, so you can focus on growing your business.` 
-                                        : props.selected === 'brands' ? 'Nice text for brands' 
+                                        : props.selected === 'brands' ? "You're in full control of your brand - Keep your community involved by updating your product catalog with new arrivals. Add new products with one simple click from our dashboard. With Weedzly, more shoppers can discover your products, and in turn increase your revenue."
                                         : ''
                                 }
                             </p>

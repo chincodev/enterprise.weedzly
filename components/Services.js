@@ -90,8 +90,8 @@ const Services = (props) => {
                                 <div className="col-lg-4 col-sm-6" style={{paddingBottom:'2rem'}}>
                                     <div className="service-item" style={{height:'100%'}}>
                                         <img src="/images/saas-landing/saas-service4.png" alt="icon" width='40px' height='40px'/>
-                                        <h3>Update Your Product Catalog</h3>
-                                        <p>You're in full control of your brand - Keep your community involved by updating your product catalog with new arrivals. Add new products with one simple click from our dashboard. With Weedzly, more shoppers can discover your products, and in turn increase your revenue.</p>
+                                        <h3>Manage Product Catalog</h3>
+                                        <p>Update your catalog and let customers know about new product arrivals</p>
                                     </div>
                                 </div>
 
