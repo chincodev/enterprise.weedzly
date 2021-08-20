@@ -67,7 +67,7 @@ class NavbarSaasLandingTwo extends Component {
             <>
                 <nav id="navbar" className="navbar navbar-expand-md navbar-light navbar-area">
                     <div className="container">
-                        <Link href="/saas-landing-2">
+                        <Link href="/">
                             <a className="navbar-brand">
                                 <img src={`/images/${this.state.logo}.png`} alt="logo" />
                             </a>
