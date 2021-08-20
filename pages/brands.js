@@ -9,10 +9,16 @@ import FunFacts from '../components/FunFacts';
 import Testimonials from '../components/Testimonials';
 import Newsletter from '../components/Newsletter';
 import FooterSaasLandingTwo from '../components/_App/FooterSaasLandingTwo';
+import { Helmet } from 'react-helmet';
 
 const SaasLanding2 = () => {
     return (
         <>
+            <Helmet>
+                <title>Weedzly Enterprise - Solutions for Cannabis Brands</title>
+                <meta name="description" content="Solutions for Cannabis Brands" />
+                <link rel="icon" type="image/png" href="/images/favicon.png"></link>
+            </Helmet>
             <NavbarSaasLandingTwo selected='brands' />
 
             <MainBanner selected='brands' />

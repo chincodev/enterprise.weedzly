@@ -11,10 +11,16 @@ import Newsletter from '../components/Newsletter';
 import FooterSaasLandingTwo from '../components/_App/FooterSaasLandingTwo';
 import ContactUs from '../components/ContactUs';
 import { dispensariesText } from '../content/text'
+import { Helmet } from 'react-helmet';
 
 export default function Home() {
     return (
         <>
+            <Helmet>
+                <title>Weedzly Enterprise - Solutions for Cannabis Dispensaries</title>
+                <meta name="description" content="Solutions for Cannabis Dispensaries" />
+                <link rel="icon" type="image/png" href="/images/favicon.png"></link>
+            </Helmet>
             <NavbarSaasLandingTwo selected='dispensaries' />
 
             <MainBanner content={dispensariesText.MainBanner} selected='dispensaries' />
