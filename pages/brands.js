@@ -54,7 +54,7 @@ const SaasLanding2 = () => {
 
             {/* <FunFacts /> */}
 
-            <Testimonials />
+            {/* <Testimonials /> */}
 
             <Newsletter />
             

@@ -18,10 +18,10 @@ const Layout = ({ children }) => {
             <Helmet>
                 <title>Weedzly Enterprise </title>
                 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-                <meta name="description" content="Plexi - React Multipurpose Landing Page Template" />
-                <meta name="og:title" property="og:title" content="Plexi - React Multipurpose Landing Page Template"></meta>
-                <meta name="twitter:card" content="Plexi - React Multipurpose Landing Page Template"></meta>
-                <link rel="canonical" href="https://plexi-react.hibootstrap.com/"></link>
+                <meta name="description" content="Weedzly Enterprise - Solutions for Cannabis Businesses" />
+                <meta name="og:title" property="og:title" content="Weedzly Enterprise - Solutions for Cannabis Businesses"></meta>
+                <meta name="twitter:card" content="Weedzly Enterprise - Solutions for Cannabis Businesses"></meta>
+                <link rel="canonical" href="https://enterprise.weedzly.com/"></link>
             </Helmet>
 
             {children}

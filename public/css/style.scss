@@ -230,6 +230,20 @@ ul {
             }
         }
     }
+    &.is-sticky {
+        .navbar-nav {
+            .nav-item {
+                .nav-link {
+                    color: #6c3478;
+                }
+            }
+        }
+        .navbar-btn a{
+            border: 1px solid #6c3478;
+            color: #ffffff;
+            background-color: #6c3478;
+        }
+    }
     .navbar-btn {
         a {
             font-size: 16px;
@@ -273,7 +287,7 @@ ul {
     .icon-bar {
         width: 28px;
         transition: all 0.3s;
-        background: #069ee8;
+        // background: white;
         height: 2px;
         display: block;
     }
@@ -334,7 +348,7 @@ ul {
         }
         .banner-btn {
             a {
-                color: #03abeb;
+                color: #6c3478;
                 background: $white-color;
                 font-weight: 600;
                 padding: 10px 30px;
@@ -342,7 +356,7 @@ ul {
                 margin-right: 30px;
                 box-shadow: 0 6px 13px rgba(0, 0, 0, 0.25) !important;
                 &:hover {
-                    background: #03abeb;
+                    background: #6c3478;
                     color: $white-color;
                 }
             }
@@ -1048,7 +1062,7 @@ ul {
             a {
                 font-size: 16px;
                 padding: 20px 40px;
-                color: #03abeb;
+                color: #6c3478;
                 background: $white-color;
                 font-weight: 600;
                 border-radius: 50px;
@@ -1314,7 +1328,7 @@ ul {
                 height: 50px;
                 border-radius: 0 30px 30px 0;
                 border: 0;
-                color: #03abeb;
+                color: #6c3478;
                 background: $white-color;
                 font-weight: 600;
                 padding: 0 50px;
@@ -1324,7 +1338,7 @@ ul {
                 z-index: 1;
 
                 &:hover {
-                    background:#5cc5f1;
+                    background:#6c3478;
                     color: $white-color;
                     border-left: 1px solid $white-color;
                 }
@@ -2023,7 +2037,7 @@ ul {
             }
 
             &.flaticon-start-up {
-                color: #03abeb;
+                color: #6c3478;
             }
         }
 
@@ -2920,7 +2934,7 @@ ul {
 
                 &:hover {
                     background-color: $white-color;
-                    color: #03abeb;
+                    color: #6c3478;
                     box-shadow: 0 6px 13px rgba(0, 0, 0, 0.25) !important;
                 }
             }
@@ -4898,7 +4912,7 @@ ul {
         }
     }
     .message-btn {
-        background-color: #03abeb;
+        background-color: #6c3478;
         color: #ffffff;
         font-weight: 600;
         padding: 12px 30px;

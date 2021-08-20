@@ -304,7 +304,7 @@ ul {
   width: 28px;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
-  background: #069ee8;
+  background: #6c3478 ;
   height: 2px;
   display: block;
 }
@@ -1132,7 +1132,7 @@ ul {
 .pricing-section .price-card .price-btn a {
   font-size: 16px;
   padding: 20px 40px;
-  color: #03abeb;
+  color: #6c3478;
   background: #ffffff;
   font-weight: 600;
   border-radius: 50px;
@@ -1419,7 +1419,7 @@ ul {
   height: 50px;
   border-radius: 0 30px 30px 0;
   border: 0;
-  color: #03abeb;
+  color: #6c3478;
   background: #ffffff;
   font-weight: 600;
   padding: 0 50px;
@@ -2145,7 +2145,7 @@ ul {
 }
 
 .counter-section .counter-text i.flaticon-start-up {
-  color: #03abeb;
+  color: #6c3478;
 }
 
 .counter-section .counter-text h2 {
@@ -3047,7 +3047,7 @@ ul {
 
 .banner-style-four .banner-text .banner-btn .cv-btn:hover {
   background-color: #ffffff;
-  color: #03abeb;
+  color: #6c3478;
   -webkit-box-shadow: 0 6px 13px rgba(0, 0, 0, 0.25) !important;
           box-shadow: 0 6px 13px rgba(0, 0, 0, 0.25) !important;
 }
@@ -5119,7 +5119,7 @@ ul {
 }
 
 .contact-form-area .message-btn {
-  background-color: #03abeb;
+  background-color: #6c3478;
   color: #ffffff;
   font-weight: 600;
   padding: 12px 30px;

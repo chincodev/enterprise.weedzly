@@ -21,7 +21,7 @@ const Features = (props) => {
                                         <p>Build trust throughout the community by interacting with your customers through reviews. People like to see a brand that engages with their shoppers. Grow your audience base and build a loyal community around your brand.</p>
                                     </div>
                                     <div className="feature-btn">
-                                        <Link href="#">
+                                        <Link href="/register">
                                             <a>Get Started</a>
                                         </Link>
                                     </div>
@@ -63,7 +63,7 @@ const Features = (props) => {
                                     </ul>
                                     
                                     <div className="feature-btn">
-                                        <Link href="#">
+                                        <Link href="/register">
                                             <a>Get Started</a>
                                         </Link>
                                     </div>

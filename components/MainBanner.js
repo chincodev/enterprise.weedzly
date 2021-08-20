@@ -41,7 +41,7 @@ const MainBanner = (props) => {
                             </p>
 
                             <div className="banner-btn">
-                                <Link href="#">
+                                <Link href="/register">
                                     <a>Get Started</a>
                                 </Link>
 
