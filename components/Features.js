@@ -31,22 +31,22 @@ const Features = (props) => {
                             <div className="col-lg-6">
                                 <div className="feature-text">
                                     <div className="section-title text-left">
-                                        <h2>Live Menu in Minutes!</h2>
-                                        <p>With our system, you'll be up and running within minutes. Simply sign up, customize your profile, and hit the ground running with instant accesss to our library with more than 200,000 pre-built products. </p>
+                                        <h2>Online Ordering </h2>
+                                        <p>Taking orders through Weedzly is the easiest way to increase sales and speed up transactions for your customers. Give them the option of ordering for pickup, curbside, or delivery. We also make it easy for you to display your menu on your own website so you can take control of your web traffic.</p>
                                     </div>
 
                                     <ul>
                                         <li>
                                             <i className="flaticon-check"></i>
-                                            Add products with the click of a button
+                                            Decrease wait times by eliminating the most time consuming aspect of a transaction. 
                                         </li>
                                         <li>
                                             <i className="flaticon-check"></i>
-                                           Create custom products and add them to your menu
+                                            Put your menu in front of ready to purchase cannabis shoppers that are browsing Weedzly.
                                         </li>
                                         <li>
                                             <i className="flaticon-check"></i>
-                                            Enable after-hour ordering, allowing customers to pre-order for when you reopen.
+                                            Embed your menu on your own website and take orders directly from there.    
                                         </li>
                                         {/* <li>
                                             <i className="flaticon-check"></i>

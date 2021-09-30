@@ -87,8 +87,7 @@ const SaasLanding2 = () => {
         
         website: Yup.string()
             .min(8, "Minimum 8 symbols")
- 			.max(50, "Maximum 50 symbols")
-            .required('Website is required'),
+ 			.max(50, "Maximum 50 symbols"),
 
         licenseType: Yup.string()
             .min(5, "Minimum 5 symbols")
@@ -299,21 +298,21 @@ const SaasLanding2 = () => {
                                         <div className="form-group">
                                             <label className="form-label">License Type</label>
                                             <Field as="select" type="text" placeholder="Enter license type" name='licenseType' className={'form-control' + (errors.licenseType && touched.licenseType ? ' is-invalid' : '')} >
-                                                <option value="">Select license type</option>
-                                                <option value="Recreational Cultivation">Recreational Cultivation</option>
-                                                <option value="Recreational Mfg.">Recreational Mfg.</option>
-                                                <option value="Recreational Nonstorefront">Recreational Nonstorefront</option>
-                                                <option value="Recreational Retail">Recreational Retail</option>
-                                                <option value="Medical Cultivation">Medical Cultivation</option>
-                                                <option value="Medical Mfg.">Medical Mfg.</option>
-                                                <option value="Medical Nonstorefront">Medical Nonstorefront</option>
-                                                <option value="Medical Retail">Medical Retail</option>
-                                                <option value="Microbusiness">Microbusiness</option>
-                                                <option value="Adult Use Storefront">Adult Use Storefront</option>
-                                                <option value="Adult Use Non-Storefront">Adult Use Non-Storefront</option>
-                                                <option value="Testing Lab">Testing Lab</option>
-                                                <option value="Event">Event</option>
-                                                <option value="Distributor">Distributor</option>
+                                            <option value="">Select license type</option>
+                    {/* <option value="Recreational Cultivation">Recreational Cultivation</option>
+                    <option value="Recreational Mfg.">Recreational Mfg.</option> */}
+                    <option value="Recreational Nonstorefront">Recreational Nonstorefront</option>
+                    <option value="Recreational Retail">Recreational Retail</option>
+                    {/* <option value="Medical Cultivation">Medical Cultivation</option>
+                    <option value="Medical Mfg.">Medical Mfg.</option> */}
+                    <option value="Medical Nonstorefront">Medical Nonstorefront</option>
+                    <option value="Medical Retail">Medical Retail</option>
+                    <option value="Microbusiness">Microbusiness</option>
+                    <option value="Adult Use Storefront">Adult Use Storefront</option>
+                    <option value="Adult Use Non-Storefront">Adult Use Non-Storefront</option>
+                    {/* <option value="Testing Lab">Testing Lab</option>
+                    <option value="Event">Event</option>
+                    <option value="Distributor">Distributor</option> */}
                                             </Field>
                                             <ErrorMessage name="licenseType" component="div" className="invalid-feedback" />
                                         </div>

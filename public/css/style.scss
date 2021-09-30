@@ -235,6 +235,12 @@ ul {
             .nav-item {
                 .nav-link {
                     color: #6c3478;
+                    &::before {
+                       
+                        background-color: #6c3478 !important;
+                       
+                    }
+    
                 }
             }
         }

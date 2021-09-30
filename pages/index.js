@@ -3,6 +3,7 @@ import NavbarSaasLandingTwo from '../components/_App/NavbarSaasLandingTwo';
 import MainBanner from '../components/MainBanner';
 import Services from '../components/Services';
 import Features from '../components/Features';
+import WhyChooseUs from '../components/WhyChooseUs'
 import MobileApp from '../components/MobileApp';
 import Pricing from '../components/Pricing';
 import FunFacts from '../components/FunFacts';
@@ -53,6 +54,8 @@ export default function Home() {
             <Features content={dispensariesText.Features} selected='dispensaries' />
 
             <MobileApp content={dispensariesText.MobileApp} selected='dispensaries' />
+
+            <WhyChooseUs selected='dispensaries' />
 
             {/* <Pricing /> */}
 

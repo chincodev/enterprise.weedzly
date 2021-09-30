@@ -10,9 +10,9 @@ const Services = (props) => {
                 </div>
 
                 <div className="row">
-
+        {console.log(props)}
                     {
-                        props.selected === 'dispensaries' || props.selected === 'deliveries' && (
+                        (props.selected === 'dispensaries' || props.selected === 'deliveries') && (
                             <>
 
                                 <div className="col-lg-4 col-sm-6" style={{paddingBottom:'2rem'}}>
@@ -59,7 +59,7 @@ const Services = (props) => {
                                     <div className="service-item" style={{height:'100%'}}>
                                         <img src="/images/saas-landing/saas-service6.png" alt="icon" width='40px' height='40px'/>
                                         <h3>Get Local Eyes On You</h3>
-                                        <p>Grab a top spot in the search bar as a featured dispensary/delivery.</p>
+                                        <p>Grab a top spot in the search bar as a featured {props.selected === 'dispensaries' ? 'pickup/delivery' : 'delivery'}.</p>
                                     </div>
                                 </div>
 

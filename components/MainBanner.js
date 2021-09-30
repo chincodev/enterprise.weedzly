@@ -30,7 +30,7 @@ const MainBanner = (props) => {
                             <p>
                                 {
                                     props.selected === 'dispensaries'
-                                        ? "Weedzly is the solution made to help your dispensary grow. Streamline your operations with our sleek dashboard, where you can manage your entire storefront in one place. Take online orders for pickup or delivery, offer custom deals and discounts, and create a loyalty program to keep your customers coming back."
+                                        ? "At Weedzly we work with all types of cannabis businesses to help retain customers and increase sales. We offer solutions for advertising, deals, loyalty programs & online ordering. We're always looking to partner with dispensaries and help them utilize our platform to grow.  Schedule a demo today to find out how we could help improve your business operations."
                                         :  props.selected === 'deliveries' 
                                         ? "Weedzly is the solution made to help take your dispensary to the next level. Streamline your operations with our sleek dashboard, where you can your whole storefront in one place. Take online orders for pickup or delivery, offer custom deals and discounts, and create a loyalty program to keep your customers coming back."
                                         :  props.selected === 'brands' 
