@@ -34,7 +34,7 @@ const MainBanner = (props) => {
                                         :  props.selected === 'deliveries' 
                                         ? "Weedzly is the solution made to help take your dispensary to the next level. Streamline your operations with our sleek dashboard, where you can your whole storefront in one place. Take online orders for pickup or delivery, offer custom deals and discounts, and create a loyalty program to keep your customers coming back."
                                         :  props.selected === 'brands' 
-                                        ? "Increase sales and brand awareness by showcasing your brand directly to cannabis consumers. Show off your product catalog and interact with customers through reviews. Weedzly is your all in one solution made to help grow your brand."
+                                        ? "At Weedzly we work with all types of cannabis businesses to help increase sales and retain customers. We're always looking to partner with brands and help them utilize our platform to grow.  Schedule a demo today to find out how we could help your brand."
                                         : ''
                                 }
                                 

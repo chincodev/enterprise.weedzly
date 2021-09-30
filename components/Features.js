@@ -17,8 +17,8 @@ const Features = (props) => {
                             <div className="col-lg-6">
                                 <div className="feature-text">
                                     <div className="section-title text-left">
-                                        <h2>Engage with Customers</h2>
-                                        <p>Build trust throughout the community by interacting with your customers through reviews. People like to see a brand that engages with their shoppers. Grow your audience base and build a loyal community around your brand.</p>
+                                        <h2>Interact With Customers</h2>
+                                        <p>Engage with customers as they leave reviews and establish credibility with your potential customers. It’s said that 78% of people trust online reviews as much as a recommendation from a friend or family member.</p>
                                     </div>
                                     <div className="feature-btn">
                                         <Link href="/register">

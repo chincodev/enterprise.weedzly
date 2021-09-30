@@ -4,6 +4,7 @@ import MainBanner from '../components/MainBanner';
 import Services from '../components/Services';
 import Features from '../components/Features';
 import MobileApp from '../components/MobileApp';
+import WhyChooseUs from '../components/WhyChooseUs'
 import Pricing from '../components/Pricing';
 import FunFacts from '../components/FunFacts';
 import Testimonials from '../components/Testimonials';
@@ -47,8 +48,10 @@ const SaasLanding2 = () => {
             <Services selected='brands'  />
 
             <Features selected='brands'/>
-
+            <WhyChooseUs selected='brands' />
             <MobileApp selected='brands' />
+
+          
 
             {/* <Pricing /> */}
 
