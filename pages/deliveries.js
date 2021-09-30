@@ -8,6 +8,7 @@ import Pricing from '../components/Pricing';
 import FunFacts from '../components/FunFacts';
 import Testimonials from '../components/Testimonials';
 import Newsletter from '../components/Newsletter';
+import WhyChooseUs from '../components/WhyChooseUs'
 import FooterSaasLandingTwo from '../components/_App/FooterSaasLandingTwo';
 import { Helmet } from 'react-helmet';
 
@@ -52,6 +53,7 @@ const SaasLanding2 = () => {
 
             <MobileApp selected='deliveries' />
 
+            <WhyChooseUs selected='deliveries' />
             {/* <Pricing /> */}
 
             {/* <FunFacts /> */}

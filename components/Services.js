@@ -51,7 +51,7 @@ const Services = (props) => {
                                     <div className="service-item" style={{height:'100%'}}>
                                         <img src="/images/saas-landing/saas-service5.png" alt="icon" width='40px' height='40px'/>
                                         <h3>Interactive Reviews</h3>
-                                        <p>Easily read and reply to customer reviews about your business.</p>
+                                        <p>Easily read and reply to customer reviews about your business</p>
                                     </div>
                                 </div>
 
@@ -59,7 +59,7 @@ const Services = (props) => {
                                     <div className="service-item" style={{height:'100%'}}>
                                         <img src="/images/saas-landing/saas-service6.png" alt="icon" width='40px' height='40px'/>
                                         <h3>Get Local Eyes On You</h3>
-                                        <p>Grab a top spot in the search bar as a featured {props.selected === 'dispensaries' ? 'pickup/delivery' : 'delivery'}.</p>
+                                        <p>Grab a top spot in the search bar as a featured {props.selected === 'dispensaries' ? 'dispensary' : 'delivery'}.</p>
                                     </div>
                                 </div>
 
@@ -75,7 +75,7 @@ const Services = (props) => {
                                     <div className="service-item" style={{height:'100%'}}>
                                         <img src="/images/saas-landing/saas-service5.png" alt="icon" width='40px' height='40px'/>
                                         <h3>Interactive Reviews</h3>
-                                        <p>Easily read and reply to customer reviews about your business.</p>
+                                        <p>Easily read and reply to customer reviews about your business</p>
                                     </div>
                                 </div>
 
