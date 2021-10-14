@@ -61,7 +61,7 @@ const MainBanner = (props) => {
             </div>
 
             <div className="banner-image-three">
-                <img src="/images/saas-landing/saas-laptop-three.png" alt="laptop" />
+                <img src="/images/saas-landing/saas-laptop-three.jpg" alt="laptop" />
                 <img src="/images/shapes/home-shape-three.png" alt="shape" />
             </div>
 

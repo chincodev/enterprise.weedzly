@@ -37,7 +37,7 @@ const WhyChooseUs = (props) => {
      <div className="row align-items-center">
          <div className="col-lg-6">
              <div className="why-choose-img">
-                 <img src="/images/saas-landing/saas-laptop.png" alt="why choose image" />
+                 <img src={`${props.selected==='dispensaries' ? '/images/saas-landing/saas-laptop-2.png' : '/images/saas-landing/saas-laptop-2-delivery.png'}`} alt="why choose image" />
              </div>
          </div>
 
