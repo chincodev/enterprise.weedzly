@@ -31,7 +31,7 @@ const MobileApp = (props) => {
                     </div>
                     <div className="col-lg-5">
                         <div className="keep-img">
-                            <img src={`${props.selected === 'dispensaries' ? '/images/saas-landing/saas-iphone-two.png' : '/images/saas-landing/saas-iphone-two-delivery.png'}`} alt="iphone" />
+                            <img src={`${props.selected === 'dispensaries' ? '/images/saas-landing/saas-iphone-two.png' : props.selected === 'deliveries' ? '/images/saas-landing/saas-iphone-two-delivery.png' : props.selected === 'brands' && '/images/saas-landing/saas-iphone-two-brand.png'}`} alt="iphone" />
                         </div>
                     </div>
                 </div>

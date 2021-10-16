@@ -8,7 +8,12 @@ const Features = (props) => {
                 <div className="row align-items-center">
                     <div className="col-lg-6">
                         <div className="feature-image">
-                            <img src="/images/saas-landing/saas-laptop.png" alt="laptop" />
+                            {
+                                props.selected === 'dispensaries' ? <img src="/images/saas-landing/saas-laptop.png" alt="laptop" /> 
+                                    : props.selected === 'brands' ? <img src="/images/saas-landing/review-brand.png" alt="laptop" /> 
+                                    : props.selected === 'deliveries' && <img src="/images/saas-landing/saas-laptop-delivery.png" alt="laptop" />
+                            }
+                            
                         </div>
                     </div>
 

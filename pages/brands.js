@@ -11,6 +11,7 @@ import Testimonials from '../components/Testimonials';
 import Newsletter from '../components/Newsletter';
 import FooterSaasLandingTwo from '../components/_App/FooterSaasLandingTwo';
 import { Helmet } from 'react-helmet';
+import ContactUs from '../components/ContactUs';
 
 const SaasLanding2 = () => {
     return (
@@ -52,7 +53,7 @@ const SaasLanding2 = () => {
             <MobileApp selected='brands' />
 
           
-
+            <ContactUs /> 
             {/* <Pricing /> */}
 
             {/* <FunFacts /> */}

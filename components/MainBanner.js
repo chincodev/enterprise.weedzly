@@ -61,7 +61,11 @@ const MainBanner = (props) => {
             </div>
 
             <div className="banner-image-three">
-                <img src="/images/saas-landing/saas-laptop-three.jpg" alt="laptop" />
+                {
+                    props.selected === 'dispensaries' ? <img src="/images/saas-landing/saas-laptop-three.jpg" alt="laptop" /> 
+                        : props.selected === 'deliveries' ? <img src="/images/saas-landing/saas-laptop-three-delivery.jpg" alt="laptop" /> 
+                        : props.selected === 'brands' && <img src="/images/saas-landing/saas-laptop-three-brand.jpg" alt="laptop" />
+                }
                 <img src="/images/shapes/home-shape-three.png" alt="shape" />
             </div>
 
