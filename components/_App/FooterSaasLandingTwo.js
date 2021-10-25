@@ -11,7 +11,7 @@ const FooterSaasLandingTwo = () => {
                         <div className="footer-widget">
                             <h3>Weedzly</h3>
                           
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                            <p>An all in one cannabis platform connecting consumers to cannabis brands & retailers.</p>
 
                             <div className="footer-social">
                                 {/* <a href="https://www.facebook.com/" target="_blank"><i className="flaticon-facebook"></i></a>

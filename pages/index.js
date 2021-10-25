@@ -65,7 +65,7 @@ export default function Home() {
 
             {/* <Testimonials content={dispensariesText.Testimonials} /> */}
 
-            <Newsletter content={dispensariesText.Newsletter} />
+            {/* <Newsletter content={dispensariesText.Newsletter} /> */}
             
             <FooterSaasLandingTwo />
         </>
