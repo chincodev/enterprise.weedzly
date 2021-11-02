@@ -147,6 +147,7 @@ const SaasLanding2 = () => {
                     icon: 'success',
                     title: 'You have sucessfully registered your business, a representative will contact you soon.'
                 })
+                setSubmitting(false);
                 // router.push('/')
             })
             .catch(error => {
@@ -310,6 +311,7 @@ const SaasLanding2 = () => {
                     <option value="Microbusiness">Microbusiness</option>
                     <option value="Adult Use Storefront">Adult Use Storefront</option>
                     <option value="Adult Use Non-Storefront">Adult Use Non-Storefront</option>
+                    <option value="I-71">I-71</option>
                     {/* <option value="Testing Lab">Testing Lab</option>
                     <option value="Event">Event</option>
                     <option value="Distributor">Distributor</option> */}
@@ -320,8 +322,8 @@ const SaasLanding2 = () => {
                                     <div className='col-md-6 col-12'>
                                         <div className="form-group">                    
                                             <div className="form-group">
-                                                <label className="form-label">License</label>
-                                                <Field name="license" type="text" placeholder="Enter license" className={'form-control' + (errors.license && touched.license ? ' is-invalid' : '')} />
+                                                <label className="form-label">License #</label>
+                                                <Field name="license" type="text" placeholder="Enter license #" className={'form-control' + (errors.license && touched.license ? ' is-invalid' : '')} />
                                                 <ErrorMessage name="license" component="div" className="invalid-feedback" />
                                             </div>
                                         </div>
@@ -337,8 +339,8 @@ const SaasLanding2 = () => {
 
                                 <div className="form-group">
                                     <div className="custom-control custom-checkbox">
-                                        <Field type="checkbox" id="newsletter-signup" name="acceptTerms" className={'custom-control-input ' + (errors.acceptTerms && touched.acceptTerms ? ' is-invalid' : '')} />
-                                        <label htmlFor="newsletter-signup" className="mr-2  custom-control-label form-check-label">Accept Terms & Conditions</label>
+                                        <Field type="checkbox" id="newsletter-signup" name="acceptTerms" className={'custom-control-input mr-1' + (errors.acceptTerms && touched.acceptTerms ? ' is-invalid' : '')} />
+                                        <label htmlFor="newsletter-signup" className="mr-2  custom-control-label form-check-label pl-2">&nbsp;Accept Terms & Conditions</label>
                                         <ErrorMessage name="acceptTerms" component="div" className="invalid-feedback" />
                                     </div>
                                 </div>
