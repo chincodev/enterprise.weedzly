@@ -27,7 +27,7 @@ const FooterSaasLandingTwo = () => {
                             <h3>Enterprise</h3>
                             <ul>
                                 <li>
-                                    <Link href="/dispensaries">
+                                    <Link href="/">
                                         <a>
                                             <i className="flaticon-right-arrow"></i>
                                             Dispensaries

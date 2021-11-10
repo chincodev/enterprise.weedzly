@@ -11,7 +11,7 @@ const WhyChooseUs = (props) => {
                         <div className="section-title text-center">
          
                     <h2>Targeted Customer Advertising</h2>
-                    <p>When shoppers are browsing Weedzly, your brand will appear as featured - establishing credibility and planting a thought in your future customers' heads. Select certain cities to appear as featured, you can target potential cities where you know you need to increase awareness or select cities where you already are established to maintain and enforce your brand awareness.</p>
+                    <p>When shoppers are browsing Weedzly, your brand will appear as featured, establishing credibility and planting a thought in your future customers mind. Select certain cities to appear as featured, you can target potential cities where you know you need to increase awareness or select cities where you already are established to maintain and enforce your brand awareness.</p>
                 </div>
 
                 
