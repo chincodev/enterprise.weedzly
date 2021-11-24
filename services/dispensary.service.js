@@ -8,6 +8,5 @@ export const dispensaryService = {
 };
 
 function createRequest(payload) {
-    console.log(getApi)
     return fetchWrapper.post(`${baseUrl}`, payload)
 }

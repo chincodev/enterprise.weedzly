@@ -87,7 +87,7 @@ class NavbarSaasLandingTwo extends Component {
                             <span className="icon-bar middle-bar"></span>
                             <span className="icon-bar bottom-bar"></span>
                         </button>
-                        {console.log(this.state)}
+                  
                         <div className={classOne} id="navbarSupportedContent">
                             <ul className="navbar-nav ms-auto">
                                 <li className="nav-item">

@@ -4,8 +4,6 @@ export default async function(req, res) {
   sgMail.setApiKey(process.env.NEXT_PUBLIC_SENDGRID_ACCESS_TOKEN)
   const { email, message, subject, name } = req.body
 
-  console.log(req.body)
-
   const content = {
       to: 'mike@weedzly.com',
       from: 'mike@weedzly.com',

@@ -151,7 +151,7 @@ const SaasLanding2 = () => {
                 // router.push('/')
             })
             .catch(error => {
-                console.log(error.data)
+       
                 setSubmitting(false);
                 Toast.fire({
                     icon: 'warning',
@@ -159,6 +159,22 @@ const SaasLanding2 = () => {
                 })
             });
     }
+
+    const [ _height, _setHeight ] = React.useState(0)
+
+    const handleResize = () => {
+        _setHeight(document.getElementById('inlineFrameExample').clientHeight)
+    }
+
+    function receiveMessage(event){
+        _setHeight(event.data)
+    }
+
+    React.useEffect(() => {
+        window.addEventListener("resize", handleResize, false);
+        window.addEventListener('message', receiveMessage, false);
+        _setHeight(document.getElementById('inlineFrameExample').clientHeight)
+    }, [])
 
     return (
         <>
@@ -175,7 +191,20 @@ const SaasLanding2 = () => {
                                 </div>
                             </div>
                         </div>
-                        <div id="register-form" className='service-style-two features-style-two ' style={{marginBottom:'-125px'}}>
+                        <div className='d-flex' style={{height:_height+'px'}}>
+                            <iframe id="inlineFrameExample"
+                                title="Inline Frame Example"
+                                style={{
+                                    position: 'absolute', 
+                                    height: _height+'px', 
+                                    border: 'none',
+                                    width:'100%'
+                                }}
+                                src="http://dev.weedzly.com/dispensaries/hai-holistic-alternative-inc/embeeded"
+                            >
+                            </iframe>
+                        </div>
+                        <div id="register-form" className='service-style-two features-style-two ' style={{marginBottom:'-125px', backgroundColor:'white'}}>
                             <div className="container pt-5 pb-3">
                                 <h3 className='mb-4'>User Information</h3>
                                 <Form className="signup-form contact-form-area">

@@ -10,7 +10,7 @@ const Services = (props) => {
                 </div>
 
                 <div className="row">
-        {console.log(props)}
+      
                     {
                         (props.selected === 'dispensaries' || props.selected === 'deliveries') && (
                             <>
