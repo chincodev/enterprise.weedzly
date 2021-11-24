@@ -200,7 +200,7 @@ const SaasLanding2 = () => {
                                     border: 'none',
                                     width:'100%'
                                 }}
-                                src="http://dev.weedzly.com/dispensaries/hai-holistic-alternative-inc/embeeded"
+                                src="https://dev.weedzly.com/dispensaries/hai-holistic-alternative-inc/embeeded"
                             >
                             </iframe>
                         </div>
