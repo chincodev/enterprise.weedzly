@@ -90,7 +90,7 @@ const SaasLanding2 = () => {
  			.max(50, "Maximum 50 symbols"),
 
         licenseType: Yup.string()
-            .min(5, "Minimum 5 symbols")
+            .min(2, "Minimum 2 symbols")
  			.max(50, "Maximum 50 symbols")
             .required('License type is required'),
 
