@@ -53,9 +53,18 @@ const SaasLanding2 = () => {
  			.max(50, "Maximum 50 symbols")
             .required('Person name is required'),
 
-        phone: Yup.string()
+        person_phone: Yup.string()
             .min(10, "Minimum 10 symbols")
  			.max(20, "Maximum 20 symbols")
+            .required('Phone is required'),
+
+        person_email: Yup.string()
+            .email('Email is invalid')
+            .required('Email is required'),
+
+        phone: Yup.string()
+            .min(10, "Minimum 10 symbols")
+            .max(20, "Maximum 20 symbols")
             .required('Phone is required'),
 
         email: Yup.string()
@@ -122,8 +131,8 @@ const SaasLanding2 = () => {
         payload.isDeliveryServiceAvailable = payload.type ==="DELIVERY" ? true : false,
         payload.pendingData = {
             person_name: payload.person_name,
-            phone: payload.phone,
-            email: payload.email,
+            phone: payload.person_phone,
+            email: payload.person_email,
             city: payload.city,
             state: payload.state
         }
@@ -133,6 +142,8 @@ const SaasLanding2 = () => {
         }]
 
         delete payload.person_name
+        delete payload.person_phone,
+        delete payload.person_email,
         delete payload.phone
         delete payload.email
         delete payload.city
@@ -193,12 +204,12 @@ const SaasLanding2 = () => {
                                         <div className='col col-md-6 col-sm-12'>
                                             <div className="form-group">
                                                 <label className="form-label">Phone number</label>
-                                                <Field  name="phone"
+                                                <Field  name="person_phone"
 								        	    	render={({ field, form }) => (
 								        	    		<MaskedInput
                                                           mask={['(', /[1-9]/, /\d/, /\d/, ')', ' ', /\d/, /\d/, /\d/, '-', /\d/, /\d/, /\d/, /\d/]}
                                                           placeholder="Enter phone number"
-                                                          className={'form-control' + (errors.phone && touched.phone ? ' is-invalid' : '')} 
+                                                          className={'form-control' + (errors.person_phone && touched.person_phone ? ' is-invalid' : '')} 
                                                     
                                                           {...field}
                                                           guide={true}
@@ -207,20 +218,20 @@ const SaasLanding2 = () => {
                                                           onChange={(e) => {
                                                             handleChange(e)
                                                             const value = e.target.value || '';
-                                                            setFieldValue('phone', value);
+                                                            setFieldValue('person_phone', value);
                                                           }}
                                                         />
 								        	    	)}
 								        	    	type="text"  
 								        	    />
-                                                <ErrorMessage name="phone" component="div" className="invalid-feedback" />
+                                                <ErrorMessage name="person_phone" component="div" className="invalid-feedback" />
                                             </div>
                                         </div>
                                         <div className='col-md-6 col-12'>
                                             <div className="form-group">
                                                 <label className="form-label">Email</label>
-                                                <Field name="email" type="text" placeholder="Enter email" className={'form-control' + (errors.email && touched.email ? ' is-invalid' : '')} />
-                                                <ErrorMessage name="email" component="div" className="invalid-feedback" />
+                                                <Field name="person_email" type="text" placeholder="Enter email" className={'form-control' + (errors.person_email && touched.person_email ? ' is-invalid' : '')} />
+                                                <ErrorMessage name="person_email" component="div" className="invalid-feedback" />
                                             </div>
                                         </div>
                                     </div>
@@ -229,7 +240,7 @@ const SaasLanding2 = () => {
                                     <div className='col-md-6 col-12'>
                                         <div className="form-group">                    
                                             <div className="form-group">
-                                                <label className="form-label">Entity Name</label>
+                                                <label className="form-label">Business Name</label>
                                                 <Field name="name" type="text" placeholder="Enter entity name" className={'form-control' + (errors.name && touched.name ? ' is-invalid' : '')} />
                                                 <ErrorMessage name="name" component="div" className="invalid-feedback" />
                                             </div>
@@ -250,7 +261,42 @@ const SaasLanding2 = () => {
                                         </div>
                                     </div>
 
-                                </div>   
+                                </div>  
+
+                                <div className='row'>
+                                    <div className='col col-md-6 col-sm-12'>
+                                        <div className="form-group">
+                                            <label className="form-label">Business number</label>
+                                            <Field  name="phone"
+								    	    	render={({ field, form }) => (
+								    	    		<MaskedInput
+                                                      mask={['(', /[1-9]/, /\d/, /\d/, ')', ' ', /\d/, /\d/, /\d/, '-', /\d/, /\d/, /\d/, /\d/]}
+                                                      placeholder="Enter business phone number"
+                                                      className={'form-control' + (errors.phone && touched.phone ? ' is-invalid' : '')} 
+                                                
+                                                      {...field}
+                                                      guide={true}
+                                                      onBlur={setFieldTouched}
+                                                      onChange={(e) => {
+                                                        handleChange(e)
+                                                        const value = e.target.value || '';
+                                                        setFieldValue('phone', value);
+                                                      }}
+                                                    />
+								    	    	)}
+								    	    	type="text"  
+								    	    />
+                                            <ErrorMessage name="phone" component="div" className="invalid-feedback" />
+                                        </div>
+                                    </div>
+                                    <div className='col-md-6 col-12'>
+                                            <div className="form-group">
+                                                <label className="form-label">Email</label>
+                                                <Field name="email" type="text" placeholder="Enter email" className={'form-control' + (errors.email && touched.email ? ' is-invalid' : '')} />
+                                                <ErrorMessage name="email" component="div" className="invalid-feedback" />
+                                            </div>
+                                        </div>
+                                </div> 
                                 {/* {   
                                     values.type!='DELIVERY' &&  */}
                                     <>
