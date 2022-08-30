@@ -124,7 +124,7 @@ const SaasLanding2 = () => {
     });
 
     function onSubmit(fields, { setStatus, setSubmitting }) {
-
+        console.log(fields)
         setStatus();
         let payload = Object.assign({}, fields)
         payload.isPickupServiceAvailable = payload.type ==="DISPENSARY" ? true : false,
@@ -144,8 +144,6 @@ const SaasLanding2 = () => {
         delete payload.person_name
         delete payload.person_phone,
         delete payload.person_email,
-        delete payload.phone
-        delete payload.email
         delete payload.city
         delete payload.state
         delete payload.licenseType
@@ -291,7 +289,7 @@ const SaasLanding2 = () => {
                                     </div>
                                     <div className='col-md-6 col-12'>
                                             <div className="form-group">
-                                                <label className="form-label">Email</label>
+                                                <label className="form-label">Business Email</label>
                                                 <Field name="email" type="text" placeholder="Enter email" className={'form-control' + (errors.email && touched.email ? ' is-invalid' : '')} />
                                                 <ErrorMessage name="email" component="div" className="invalid-feedback" />
                                             </div>
