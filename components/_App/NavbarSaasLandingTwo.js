@@ -65,7 +65,7 @@ class NavbarSaasLandingTwo extends Component {
         const classTwo = collapsed ? 'navbar-toggler navbar-toggler-right collapsed' : 'navbar-toggler navbar-toggler-right';
         return (
             <>
-                <nav id="navbar" className="navbar navbar-expand-md navbar-light navbar-area">
+                <nav id="navbar" className={`navbar navbar-expand-md navbar-light navbar-area`}>
                     <div className="container">
                         <Link href="/">
                             <a className="navbar-brand">
@@ -131,16 +131,19 @@ class NavbarSaasLandingTwo extends Component {
                                     </Link>
                                 </li>
                                 {/* <li className="nav-item">
-                                    <AnchorLink 
-                                        onClick={this.toggleNavbar} 
+                                    <Link 
+                                        // onClick={this.toggleNavbar} 
                                         offset={() => -1} 
-                                        className="nav-link" 
-                                        href="#pricing"
+                                        href="/test"
                                     >
-                                        Pricing
-                                    </AnchorLink>
-                                </li>
-                                <li className="nav-item">
+                                        <a
+                                            className={`nav-link ${this.props.selected === 'test' ? 'active' : ''}`}  
+                                        >
+                                            Test
+                                        </a>
+                                    </Link>
+                                </li> */}
+                                {/* <li className="nav-item">
                                     <AnchorLink 
                                         onClick={this.toggleNavbar} 
                                         offset={() => -1} 

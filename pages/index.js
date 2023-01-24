@@ -62,15 +62,7 @@ export default function Home() {
             
 
 
-<iframe
-          
-         
-          type="text/html"
-         
-          src={`https://weedzly.com/dispensaries/greenwolf-la-pre-ico/embeeded/deals/`}
-          style={{display:'block',border:'none',height:'100vh', width:'100vw' }}
-        ></iframe>
-
+            
             {/* <Pricing /> */}
 
             {/* <FunFacts /> */}
