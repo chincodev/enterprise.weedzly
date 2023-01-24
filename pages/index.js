@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useRef } from 'react';
 import NavbarSaasLandingTwo from '../components/_App/NavbarSaasLandingTwo';
 import MainBanner from '../components/MainBanner';
 import Services from '../components/Services';
@@ -15,6 +15,8 @@ import { dispensariesText } from '../content/text'
 import { Helmet } from 'react-helmet';
 
 export default function Home() {
+
+
     return (
         <>
             <Helmet>
@@ -56,6 +58,18 @@ export default function Home() {
             <MobileApp content={dispensariesText.MobileApp} selected='dispensaries' />
 
             <WhyChooseUs selected='dispensaries' />
+
+            
+
+
+<iframe
+          
+         
+          type="text/html"
+         
+          src={`https://weedzly.com/dispensaries/greenwolf-la-pre-ico/embeeded/deals/`}
+          style={{display:'block',border:'none',height:'100vh', width:'100vw' }}
+        ></iframe>
 
             {/* <Pricing /> */}
 
