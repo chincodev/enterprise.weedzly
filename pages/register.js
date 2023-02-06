@@ -192,8 +192,8 @@ const SaasLanding2 = () => {
                                     <div className='row'>
                                         <div className='col col-sm-12'>
                                             <div className="form-group">
-                                                <label htmlFor='person_name' className="form-label">Name</label>
-                                                <Field id='person_name' name="person_name" type="text" placeholder="Enter name" className={'form-control' + (errors.person_name && touched.person_name ? ' is-invalid' : '')} />
+                                                <label htmlFor='person_name' className="form-label">First and last name</label>
+                                                <Field id='person_name' name="person_name" type="text" placeholder="Enter first and last name" className={'form-control' + (errors.person_name && touched.person_name ? ' is-invalid' : '')} />
                                                 <ErrorMessage name="person_name" component="div" className="invalid-feedback" />
                                             </div>
                                         </div>
@@ -201,12 +201,12 @@ const SaasLanding2 = () => {
                                     <div className='row'>
                                         <div className='col col-md-6 col-sm-12'>
                                             <div className="form-group">
-                                                <label className="form-label">Phone number</label>
+                                                <label className="form-label">Contact phone number</label>
                                                 <Field  name="person_phone"
 								        	    	render={({ field, form }) => (
 								        	    		<MaskedInput
                                                           mask={['(', /[1-9]/, /\d/, /\d/, ')', ' ', /\d/, /\d/, /\d/, '-', /\d/, /\d/, /\d/, /\d/]}
-                                                          placeholder="Enter phone number"
+                                                          placeholder="Enter contact phone number"
                                                           className={'form-control' + (errors.person_phone && touched.person_phone ? ' is-invalid' : '')} 
                                                     
                                                           {...field}
@@ -227,8 +227,8 @@ const SaasLanding2 = () => {
                                         </div>
                                         <div className='col-md-6 col-12'>
                                             <div className="form-group">
-                                                <label className="form-label">Email</label>
-                                                <Field name="person_email" type="text" placeholder="Enter email" className={'form-control' + (errors.person_email && touched.person_email ? ' is-invalid' : '')} />
+                                                <label className="form-label">Contact email</label>
+                                                <Field name="person_email" type="text" placeholder="Enter contact email" className={'form-control' + (errors.person_email && touched.person_email ? ' is-invalid' : '')} />
                                                 <ErrorMessage name="person_email" component="div" className="invalid-feedback" />
                                             </div>
                                         </div>
