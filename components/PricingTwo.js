@@ -13,7 +13,7 @@ const PricingTwo = () => {
                     <div className="offset-lg-2 col-lg-4 c col-md-6">
                         <div className="price-card">
                             <div className="price">
-                                <h3>$30 <span>/ Month</span></h3>
+                                <h3>$99 <span>/ Month</span></h3>
                                 <p>Dispensary Basic</p>
                             </div>
 
