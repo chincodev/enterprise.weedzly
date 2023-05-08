@@ -1,12 +1,12 @@
 import React from 'react';
 import Link from 'next/link';
 
-const Pricing = () => {
+const PricingTwo = () => {
     return (
         <div id="pricing" className="pricing-section price-style-two">
             <div className="container">
                 <div className="section-title">
-                    <h2>Pricing for Delivery Services</h2>
+                    <h2>Pricing for Dispensaries</h2>
                     {/* <p>A comment is something that you say which expresses your opinion of something or which gives an explanation of it. If an event or situation.</p> */}
                 </div>
                 <div className="row">
@@ -14,14 +14,14 @@ const Pricing = () => {
                         <div className="price-card">
                             <div className="price">
                                 <h3>$30 <span>/ Month</span></h3>
-                                <p>Delivery Basic</p>
+                                <p>Dispensary Basic</p>
                             </div>
 
                             <div className="price-feature">
                                 <ul>
                                     <li>
                                         <i className="flaticon-check"></i>
-                                        Delivery Listing
+                                        Dispensary Listing
                                     </li>
                                     <li>
                                         <i className="flaticon-check"></i>
@@ -53,7 +53,7 @@ const Pricing = () => {
                         <div className="price-card business-className active-price">
                             <div className="price">
                                 <h3>$299 <span>/ Month</span></h3>
-                                <p>Delivery Premium</p>
+                                <p>Dispensary Premium</p>
                             </div>
 
                             <div className="price-feature">
@@ -92,4 +92,4 @@ const Pricing = () => {
     )
 }
 
-export default Pricing;
+export default PricingTwo;

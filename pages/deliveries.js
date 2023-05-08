@@ -57,7 +57,7 @@ const SaasLanding2 = () => {
             <WhyChooseUs selected='deliveries' />
 
             <ContactUs /> 
-            {/* <Pricing /> */}
+            <Pricing /> 
 
             {/* <FunFacts /> */}
 

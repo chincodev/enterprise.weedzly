@@ -12,6 +12,7 @@ import Newsletter from '../components/Newsletter';
 import FooterSaasLandingTwo from '../components/_App/FooterSaasLandingTwo';
 import { Helmet } from 'react-helmet';
 import ContactUs from '../components/ContactUs';
+import PricingThree from '../components/PricingThree';
 
 const SaasLanding2 = () => {
     return (
@@ -54,7 +55,7 @@ const SaasLanding2 = () => {
 
           
             <ContactUs /> 
-            {/* <Pricing /> */}
+            <PricingThree /> 
 
             {/* <FunFacts /> */}
 

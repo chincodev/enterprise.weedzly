@@ -13,6 +13,7 @@ import FooterSaasLandingTwo from '../components/_App/FooterSaasLandingTwo';
 import ContactUs from '../components/ContactUs';
 import { dispensariesText } from '../content/text'
 import { Helmet } from 'react-helmet';
+import PricingTwo from '../components/PricingTwo';
 
 export default function Home() {
 
@@ -63,7 +64,7 @@ export default function Home() {
 
 
             
-            {/* <Pricing /> */}
+            <PricingTwo />
 
             {/* <FunFacts /> */}
 

@@ -1,12 +1,12 @@
 import React from 'react';
 import Link from 'next/link';
 
-const Pricing = () => {
+const PricingThree = () => {
     return (
         <div id="pricing" className="pricing-section price-style-two">
             <div className="container">
                 <div className="section-title">
-                    <h2>Pricing for Delivery Services</h2>
+                    <h2>Pricing for Brands</h2>
                     {/* <p>A comment is something that you say which expresses your opinion of something or which gives an explanation of it. If an event or situation.</p> */}
                 </div>
                 <div className="row">
@@ -14,18 +14,22 @@ const Pricing = () => {
                         <div className="price-card">
                             <div className="price">
                                 <h3>$30 <span>/ Month</span></h3>
-                                <p>Delivery Basic</p>
+                                <p>Brand Basic</p>
                             </div>
 
                             <div className="price-feature">
                                 <ul>
                                     <li>
                                         <i className="flaticon-check"></i>
-                                        Delivery Listing
+                                        Customize Your Business Listing
                                     </li>
                                     <li>
                                         <i className="flaticon-check"></i>
-                                        Point of Sale system
+                                        Upload and customize your product catalog 
+                                    </li>
+                                    <li>
+                                        <i className="flaticon-check"></i>
+                                        Respond to customer reviews
                                     </li>
                                     <li>
                                         <i className="flaticon-check"></i>
@@ -33,11 +37,7 @@ const Pricing = () => {
                                     </li>
                                     <li>
                                         <i className="flaticon-check"></i>
-                                        Loyalty rewards system
-                                    </li>
-                                    <li>
-                                        <i className="flaticon-check"></i>
-                                        Customer Online Ordering system
+                                        Brand Premium
                                     </li>
                                 </ul>
                             </div>
@@ -53,7 +53,7 @@ const Pricing = () => {
                         <div className="price-card business-className active-price">
                             <div className="price">
                                 <h3>$299 <span>/ Month</span></h3>
-                                <p>Delivery Premium</p>
+                                <p>Brand Premium</p>
                             </div>
 
                             <div className="price-feature">
@@ -92,4 +92,4 @@ const Pricing = () => {
     )
 }
 
-export default Pricing;
+export default PricingThree;
