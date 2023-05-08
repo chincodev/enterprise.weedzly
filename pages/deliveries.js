@@ -55,9 +55,9 @@ const SaasLanding2 = () => {
             <MobileApp selected='deliveries' />
 
             <WhyChooseUs selected='deliveries' />
-
-            <ContactUs /> 
             <Pricing /> 
+            <ContactUs /> 
+           
 
             {/* <FunFacts /> */}
 

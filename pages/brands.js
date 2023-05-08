@@ -53,9 +53,9 @@ const SaasLanding2 = () => {
             <WhyChooseUs selected='brands' />
             <MobileApp selected='brands' />
 
-          
-            <ContactUs /> 
             <PricingThree /> 
+            <ContactUs /> 
+            
 
             {/* <FunFacts /> */}
 
